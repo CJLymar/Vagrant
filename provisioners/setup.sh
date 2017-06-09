@@ -11,7 +11,7 @@ rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 
 # Install additional packages
 echo 'Installing Additional Packages'
-yum -y install nano nmap wget telnet p7zip ntp htop
+yum -y install nano nmap wget telnet p7zip ntp htop npm nodejs
 
 # Install Nginx
 echo 'Installing & Configuring Nginx'
